@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Header */
+  .header {
+    background: #d43e11;
+    color: #07f1ba;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 10px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: #15b733;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+  }
+  
+  /* Sections */
+  section {
+    padding: 40px 0;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #19b36d;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #b41152;
+    color: #1dcb5d;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
